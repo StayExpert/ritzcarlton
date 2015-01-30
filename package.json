@@ -1,0 +1,35 @@
+{
+  "name": "ritzcarlton",
+  "version": "0.0.0",
+  "description": "ritzcarlton hotels price fetcher",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=ritzcarlton,ritzcarlton:* node_modules/.bin/mocha tests/search.js",
+    "dev": "DEBUG=ritzcarlton,ritzcarlton:*,sdk,sdk:* node example/example.js",
+    "example": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sayoou/ritzcarlton.git"
+  },
+  "keywords": [
+    "spg",
+    "ritzcarlton"
+  ],
+  "author": "turing <o.u.turing@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sayoou/ritzcarlton/issues"
+  },
+  "homepage": "https://github.com/sayoou/ritzcarlton",
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "debug": "^2.1.0",
+    "sdk": "0.2.1",
+    "trim": "0.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^4.4.1"
+  }
+}
